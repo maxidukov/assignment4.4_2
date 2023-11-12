@@ -60,6 +60,7 @@ int main() {
   //clear_stdin();
   std::cout<<"\nСпасибо! Ваш массив: ";
   print_dynamic_array(arr,ls,as);
+  delete [] arr;
 
 }
 
